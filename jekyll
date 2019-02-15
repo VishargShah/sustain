@@ -1,0 +1,9 @@
+bundle exec jekyll serve
+bundle install
+
+sudo netstat -lpn |grep :4000
+sudo kill -9 PID
+
+
+vitae : https://github.com/jekyller/vitae
+sustain: https://github.com/jekyller/sustain
